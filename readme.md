@@ -2,7 +2,7 @@
 
 感谢： [lottie-ios on github](https://github.com/airbnb/lottie-ios)
 
-DzwGuidenceView站在巨人lottie的肩膀上利用AE生成的JSON文件简单实现动画部分，依赖lottie版本为
+站在巨人`lottie`的肩膀上利用AE生成的JSON文件简单实现主体动画部分，依赖lottie版本为
 
 ```ruby
 pod 'lottie-ios', '~> 2.5.0'
