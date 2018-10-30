@@ -125,5 +125,5 @@ guidenceView.nextAction = ^(UIButton * _Nonnull button) {
 
 ### 效果
 
-<div align="center">![img](https://github.com/Dtheme/DzwGuidenceView/blob/master/gif/launch.gif)</div>
+<div align="center">![img][https://github.com/Dtheme/DzwGuidenceView/blob/master/gif/launch.gif]</div>
 
