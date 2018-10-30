@@ -15,8 +15,6 @@
 		968742C62186964300753F93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 968742C52186964300753F93 /* Assets.xcassets */; };
 		968742C92186964300753F93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 968742C72186964300753F93 /* LaunchScreen.storyboard */; };
 		968742CC2186964300753F93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 968742CB2186964300753F93 /* main.m */; };
-		968742D62186964300753F93 /* DzwGuidenceViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 968742D52186964300753F93 /* DzwGuidenceViewTests.m */; };
-		968742E12186964300753F93 /* DzwGuidenceViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 968742E02186964300753F93 /* DzwGuidenceViewUITests.m */; };
 		968742F121869CA600753F93 /* DzwGuidenceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 968742F021869CA600753F93 /* DzwGuidenceView.m */; };
 		968742F92186B1BC00753F93 /* man_and_pay_with_credit_card.json in Resources */ = {isa = PBXBuildFile; fileRef = 968742F32186B1BB00753F93 /* man_and_pay_with_credit_card.json */; };
 		968742FA2186B1BC00753F93 /* man_and_travel.json in Resources */ = {isa = PBXBuildFile; fileRef = 968742F42186B1BB00753F93 /* man_and_travel.json */; };
@@ -59,11 +57,7 @@
 		968742CA2186964300753F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		968742CB2186964300753F93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		968742D12186964300753F93 /* DzwGuidenceViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DzwGuidenceViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		968742D52186964300753F93 /* DzwGuidenceViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DzwGuidenceViewTests.m; sourceTree = "<group>"; };
-		968742D72186964300753F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		968742DC2186964300753F93 /* DzwGuidenceViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DzwGuidenceViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		968742E02186964300753F93 /* DzwGuidenceViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DzwGuidenceViewUITests.m; sourceTree = "<group>"; };
-		968742E22186964300753F93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		968742EF21869CA600753F93 /* DzwGuidenceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DzwGuidenceView.h; sourceTree = "<group>"; };
 		968742F021869CA600753F93 /* DzwGuidenceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DzwGuidenceView.m; sourceTree = "<group>"; };
 		968742F32186B1BB00753F93 /* man_and_pay_with_credit_card.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = man_and_pay_with_credit_card.json; sourceTree = "<group>"; };
@@ -110,8 +104,6 @@
 			isa = PBXGroup;
 			children = (
 				968742BB2186964200753F93 /* DzwGuidenceView */,
-				968742D42186964300753F93 /* DzwGuidenceViewTests */,
-				968742DF2186964300753F93 /* DzwGuidenceViewUITests */,
 				968742BA2186964200753F93 /* Products */,
 				E47C408D1F1E64F9FBAD63A9 /* Pods */,
 				C43368952CFA7EC37BF3480A /* Frameworks */,
@@ -144,24 +136,6 @@
 				968742CB2186964300753F93 /* main.m */,
 			);
 			path = DzwGuidenceView;
-			sourceTree = "<group>";
-		};
-		968742D42186964300753F93 /* DzwGuidenceViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				968742D52186964300753F93 /* DzwGuidenceViewTests.m */,
-				968742D72186964300753F93 /* Info.plist */,
-			);
-			path = DzwGuidenceViewTests;
-			sourceTree = "<group>";
-		};
-		968742DF2186964300753F93 /* DzwGuidenceViewUITests */ = {
-			isa = PBXGroup;
-			children = (
-				968742E02186964300753F93 /* DzwGuidenceViewUITests.m */,
-				968742E22186964300753F93 /* Info.plist */,
-			);
-			path = DzwGuidenceViewUITests;
 			sourceTree = "<group>";
 		};
 		968742EE21869C8C00753F93 /* GuidenceView */ = {
@@ -414,7 +388,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				968742D62186964300753F93 /* DzwGuidenceViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +395,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				968742E12186964300753F93 /* DzwGuidenceViewUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
