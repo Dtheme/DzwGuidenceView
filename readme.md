@@ -12,6 +12,14 @@ pod 'lottie-ios', '~> 2.5.0'
 
 
 
+
+
+### demo效果
+
+<div align=center><img src="https://github.com/Dtheme/DzwGuidenceView/blob/master/gif/launch.gif"/></div>
+
+
+
 ### 思路
 
 DzwGuidenceView基于lottie-iOS开发的动态引导页，上半部分动画采用AE生成，demo中动画来自[lottie素材网站，谢谢Airbnb以及lottiefile.com](https://www.lottiefiles.com)，lottie库强大在于如果你会使用AE可以大大减轻写代码的工作量，使用lottie提供的LottieAnimationView就可以加载解析AE生成的JSON动画文件，性能上也不错。
@@ -125,7 +133,5 @@ guidenceView.nextAction = ^(UIButton * _Nonnull button) {
 
 
 
-### 效果
-
-<div align=center><img src="https://github.com/Dtheme/DzwGuidenceView/blob/master/gif/launch.gif"/></div>
+### 
 
