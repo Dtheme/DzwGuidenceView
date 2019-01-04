@@ -11,13 +11,21 @@
 #import <Lottie/Lottie.h>
 
 @interface ViewController ()
-
+@property (nonatomic, strong) UILabel *aLabel;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    self.aLabel = ({
+        UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 0, 0)];
+        label.text = @"test";
+        label;
+    });
+    
     
     self.view.backgroundColor = [UIColor whiteColor];
     
@@ -34,6 +42,8 @@
     };
     [self.view addSubview:guidenceView];
 
+
+    
 }
 
 
